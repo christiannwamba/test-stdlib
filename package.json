@@ -1,0 +1,22 @@
+{
+  "name": "test-drive",
+  "version": "0.0.0",
+  "description": "Service",
+  "author": "codebeast <nwambachristian@gmail.com>",
+  "main": "functions/main/index.js",
+  "dependencies": {
+    "deepstream.io-client-js": "^2.1.4",
+    "moment": "^2.18.1"
+  },
+  "private": true,
+  "stdlib": {
+    "name": "codebeast/test-drive",
+    "defaultFunction": "main",
+    "timeout": 10000,
+    "publish": true,
+    "personalize": {
+      "keys": [],
+      "user": []
+    }
+  }
+}
